@@ -1,4 +1,8 @@
-# Cronômetro
+# Cronômetro em Javascript 
 
-![view](assets/cronometro.png);
+Clique [aqui](https://jaianeoliveira.github.io/cronometro/
+) para testar ✌
+
+![vizualização](assets/cronometro.png)
+
 
