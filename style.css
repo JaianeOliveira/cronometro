@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #E5E1EE;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body{
+    display: flex;
+    flex: 1;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1D1425;
+}
+
+h1{
+    font-size: 54px;
+    font-weight: regular;
+    text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+[data-js="div_clock"]{
+    background: #181126;
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 100px rgba(158, 99, 173, 0.1);
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+
+    
+}
+
+[data-js="div_clock"] div{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    border: 1px solid #D93B84;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    font-weight: normal;
+    font-size: 48px;
+    background: none;
+    border: none;
+    color: #FFF;
+    text-align: center;
+}
+
+button{
+    background: rgba(158, 99, 173, 0.5);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+    border: none;
+    padding: 18px;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+    
+button i {
+    color: #FFF;
+}
+button:hover{
+    background: rgba(158, 99, 173, 0.7);
+    transition: 0.4s ease-in-out;
+}
